@@ -1,0 +1,265 @@
+2024-05-18 00:20:42,336 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Execution Started
+2024-05-18 00:20:42,338 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Instantiating the CommonUtils
+2024-05-18 00:20:42,338 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Loading the properties file
+2024-05-18 00:20:42,341 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Checking the driver is Null or Not
+2024-05-18 00:20:42,342 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Driver is NULL.Instantiating it!
+2024-05-18 00:20:42,677 [INFO ] com.bdd.webdriver_manager.DriverManager [main] Launching chrome
+2024-05-18 00:21:05,844 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user is logged in successfully and is on homepage
+2024-05-18 00:21:07,235 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user clicks on the Directory option from the Menu bar
+2024-05-18 00:21:08,330 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user selects the job title as Chief Financial Officer from the dropdown
+2024-05-18 00:21:08,406 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] clicks the search button
+2024-05-18 00:21:08,802 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user should see the CFO name as Peter Mac Anderson
+2024-05-18 00:21:08,809 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Execution Started
+2024-05-18 00:21:08,810 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Instantiating the CommonUtils
+2024-05-18 00:21:08,811 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Loading the properties file
+2024-05-18 00:21:08,812 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Checking the driver is Null or Not
+2024-05-18 00:21:10,823 [INFO ] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] the user clicks on the time option
+2024-05-18 00:21:10,841 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34e5ba469bcdd2e923583e3756157e32, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue');, args=[null]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50920}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50920/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34e5ba469bcdd2e923583e3756157e32
+2024-05-18 00:21:10,996 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34e5ba469bcdd2e923583e3756157e32, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue');, args=[null]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50920}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50920/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34e5ba469bcdd2e923583e3756157e32
+2024-05-18 00:21:11,145 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because "this.MESSAGE" is null
+2024-05-18 00:21:37,988 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Execution Started
+2024-05-18 00:21:37,990 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Instantiating the CommonUtils
+2024-05-18 00:21:37,990 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Loading the properties file
+2024-05-18 00:21:37,992 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Checking the driver is Null or Not
+2024-05-18 00:21:37,994 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Driver is NULL.Instantiating it!
+2024-05-18 00:21:38,349 [INFO ] com.bdd.webdriver_manager.DriverManager [main] Launching chrome
+2024-05-18 00:22:00,532 [INFO ] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] The user is on Homepage
+2024-05-18 00:22:02,992 [INFO ] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] the user clicks on the time option
+2024-05-18 00:22:03,025 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e1a8e41fff7fd3dc591b9a1211565b29, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue');, args=[null]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50966/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e1a8e41fff7fd3dc591b9a1211565b29
+2024-05-18 00:22:03,178 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e1a8e41fff7fd3dc591b9a1211565b29, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue');, args=[null]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50966/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e1a8e41fff7fd3dc591b9a1211565b29
+2024-05-18 00:22:03,391 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because "this.MESSAGE" is null
+2024-05-18 00:26:03,637 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Execution Started
+2024-05-18 00:26:03,639 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Instantiating the CommonUtils
+2024-05-18 00:26:03,639 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Loading the properties file
+2024-05-18 00:26:03,641 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Checking the driver is Null or Not
+2024-05-18 00:26:03,642 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Driver is NULL.Instantiating it!
+2024-05-18 00:26:03,966 [INFO ] com.bdd.webdriver_manager.DriverManager [main] Launching chrome
+2024-05-18 00:26:26,491 [INFO ] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] The user is on Homepage
+2024-05-18 00:26:28,775 [INFO ] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] the user clicks on the time option
+2024-05-18 00:26:28,803 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e0e642a965a0974dc6b9a85c5eacc3d, executeScript {args=[null], script=arguments[0].setAttribute('style','border: 3px solid blue');}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51103}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51103/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e0e642a965a0974dc6b9a85c5eacc3d
+2024-05-18 00:26:28,987 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e0e642a965a0974dc6b9a85c5eacc3d, executeScript {args=[null], script=arguments[0].setAttribute('style','border: 3px solid blue');}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51103}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51103/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e0e642a965a0974dc6b9a85c5eacc3d
+2024-05-18 00:26:29,132 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because "this.MESSAGE" is null
+2024-05-18 00:27:47,550 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Execution Started
+2024-05-18 00:27:47,552 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Instantiating the CommonUtils
+2024-05-18 00:27:47,552 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Loading the properties file
+2024-05-18 00:27:47,554 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Checking the driver is Null or Not
+2024-05-18 00:27:47,555 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Driver is NULL.Instantiating it!
+2024-05-18 00:27:47,884 [INFO ] com.bdd.webdriver_manager.DriverManager [main] Launching chrome
+2024-05-18 00:28:10,510 [INFO ] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] The user is on Homepage
+2024-05-18 00:28:13,027 [INFO ] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] the user clicks on the time option
+2024-05-18 00:28:13,044 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fac8653e30c9d1695f43c1ec41aa78e1, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue');, args=[null]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51171}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51171/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fac8653e30c9d1695f43c1ec41aa78e1
+2024-05-18 00:28:13,202 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fac8653e30c9d1695f43c1ec41aa78e1, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue');, args=[null]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51171}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51171/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fac8653e30c9d1695f43c1ec41aa78e1
+2024-05-18 00:28:13,326 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because "this.MESSAGE" is null
+2024-05-18 00:35:45,107 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Execution Started
+2024-05-18 00:35:45,111 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Instantiating the CommonUtils
+2024-05-18 00:35:45,111 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Loading the properties file
+2024-05-18 00:35:45,113 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Checking the driver is Null or Not
+2024-05-18 00:35:45,114 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Driver is NULL.Instantiating it!
+2024-05-18 00:35:45,457 [INFO ] com.bdd.webdriver_manager.DriverManager [main] Launching chrome
+2024-05-18 00:35:57,263 [INFO ] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] The user is on Homepage
+2024-05-18 00:35:59,264 [INFO ] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] the user clicks on the time option
+2024-05-18 00:35:59,280 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f26f37f87fbfcd7c8e0d4f99d4379b9, executeScript {args=[null], script=arguments[0].setAttribute('style','border: 3px solid blue');}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51438}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51438/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f26f37f87fbfcd7c8e0d4f99d4379b9
+2024-05-18 00:35:59,461 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f26f37f87fbfcd7c8e0d4f99d4379b9, executeScript {args=[null], script=arguments[0].setAttribute('style','border: 3px solid blue');}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51438}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51438/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f26f37f87fbfcd7c8e0d4f99d4379b9
+2024-05-18 00:35:59,596 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because "this.MESSAGE" is null
+2024-05-18 00:42:27,963 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Execution Started
+2024-05-18 00:42:27,966 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Instantiating the CommonUtils
+2024-05-18 00:42:27,966 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Loading the properties file
+2024-05-18 00:42:27,969 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Checking the driver is Null or Not
+2024-05-18 00:42:27,971 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Driver is NULL.Instantiating it!
+2024-05-18 00:42:28,942 [INFO ] com.bdd.webdriver_manager.DriverManager [main] Launching chrome
+2024-05-18 00:42:49,473 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user is logged in successfully and is on homepage
+2024-05-18 00:42:51,660 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user clicks on the Directory option from the Menu bar
+2024-05-18 00:42:53,095 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user selects the job title as Chief Financial Officer from the dropdown
+2024-05-18 00:42:53,483 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] clicks the search button
+2024-05-18 00:42:54,382 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user should see the CFO name as Peter Mac Anderson
+2024-05-18 00:42:54,422 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Execution Started
+2024-05-18 00:42:54,423 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Instantiating the CommonUtils
+2024-05-18 00:42:54,424 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Loading the properties file
+2024-05-18 00:42:54,426 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Checking the driver is Null or Not
+2024-05-18 00:42:56,100 [INFO ] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] the user clicks on the time option
+2024-05-18 00:42:56,186 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fd0110731fc47d6867bfb9bbae015e0, executeScript {args=[null], script=arguments[0].setAttribute('style','border: 3px solid blue');}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51644}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51644/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fd0110731fc47d6867bfb9bbae015e0
+2024-05-18 00:42:56,709 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fd0110731fc47d6867bfb9bbae015e0, executeScript {args=[null], script=arguments[0].setAttribute('style','border: 3px solid blue');}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51644}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51644/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fd0110731fc47d6867bfb9bbae015e0
+2024-05-18 00:42:57,088 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because "this.MESSAGE" is null
+2024-05-18 01:06:06,152 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Execution Started
+2024-05-18 01:06:06,161 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Instantiating the CommonUtils
+2024-05-18 01:06:06,162 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Loading the properties file
+2024-05-18 01:06:06,166 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Checking the driver is Null or Not
+2024-05-18 01:06:06,168 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Driver is NULL.Instantiating it!
+2024-05-18 01:06:10,005 [INFO ] com.bdd.webdriver_manager.DriverManager [main] Launching chrome
+2024-05-18 01:06:31,861 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user is logged in successfully and is on homepage
+2024-05-18 01:06:33,448 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user clicks on the Directory option from the Menu bar
+2024-05-18 01:06:34,487 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user selects the job title as Chief Financial Officer from the dropdown
+2024-05-18 01:06:34,784 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] clicks the search button
+2024-05-18 01:06:35,359 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user should see the CFO name as Peter Mac Anderson
+2024-05-18 01:06:35,400 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Execution Started
+2024-05-18 01:06:35,400 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Instantiating the CommonUtils
+2024-05-18 01:06:35,401 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Loading the properties file
+2024-05-18 01:06:35,402 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Checking the driver is Null or Not
+2024-05-18 01:06:36,579 [INFO ] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] the user clicks on the time option
+2024-05-18 01:06:36,655 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [076d4dd976b495981787d794c11218aa, executeScript {args=[null], script=arguments[0].setAttribute('style','border: 3px solid blue');}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52417/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 076d4dd976b495981787d794c11218aa
+2024-05-18 01:06:36,912 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [076d4dd976b495981787d794c11218aa, executeScript {args=[null], script=arguments[0].setAttribute('style','border: 3px solid blue');}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52417/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 076d4dd976b495981787d794c11218aa
+2024-05-18 01:06:37,118 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because "this.MESSAGE" is null
+2024-05-18 01:10:58,755 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Execution Started
+2024-05-18 01:10:58,759 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Instantiating the CommonUtils
+2024-05-18 01:10:58,759 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Loading the properties file
+2024-05-18 01:10:58,763 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Checking the driver is Null or Not
+2024-05-18 01:10:58,765 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Driver is NULL.Instantiating it!
+2024-05-18 01:10:59,577 [INFO ] com.bdd.webdriver_manager.DriverManager [main] Launching chrome
+2024-05-18 01:11:31,677 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user is logged in successfully and is on homepage
+2024-05-18 01:11:33,781 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user clicks on the Directory option from the Menu bar
+2024-05-18 01:11:34,586 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user selects the job title as Chief Financial Officer from the dropdown
+2024-05-18 01:11:34,832 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] clicks the search button
+2024-05-18 01:11:35,622 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user should see the CFO name as Peter Mac Anderson
+2024-05-18 01:11:35,673 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Execution Started
+2024-05-18 01:11:35,674 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Instantiating the CommonUtils
+2024-05-18 01:11:35,675 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Loading the properties file
+2024-05-18 01:11:35,677 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Checking the driver is Null or Not
+2024-05-18 01:11:37,010 [INFO ] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] the user clicks on the time option
+2024-05-18 01:11:37,084 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62eed0affb8fe22ea7dd801a65b90223, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue');, args=[null]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52478/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62eed0affb8fe22ea7dd801a65b90223
+2024-05-18 01:11:37,447 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62eed0affb8fe22ea7dd801a65b90223, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue');, args=[null]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52478/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62eed0affb8fe22ea7dd801a65b90223
+2024-05-18 01:11:37,808 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because "this.MESSAGE" is null
+2024-05-18 01:24:47,909 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Execution Started
+2024-05-18 01:24:47,912 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Instantiating the CommonUtils
+2024-05-18 01:24:47,913 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Loading the properties file
+2024-05-18 01:24:47,916 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Checking the driver is Null or Not
+2024-05-18 01:24:47,917 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Driver is NULL.Instantiating it!
+2024-05-18 01:24:48,474 [INFO ] com.bdd.webdriver_manager.DriverManager [main] Launching chrome
+2024-05-18 01:25:09,815 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user is logged in successfully and is on homepage
+2024-05-18 01:25:12,876 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user clicks on the Directory option from the Menu bar
+2024-05-18 01:25:14,063 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user selects the job title as Chief Financial Officer from the dropdown
+2024-05-18 01:25:14,211 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] clicks the search button
+2024-05-18 01:25:14,663 [INFO ] com.bdd.step_definitions.VerifyCFOName_Step_Def [main] the user should see the CFO name as Peter Mac Anderson
+2024-05-18 01:25:14,716 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Execution Started
+2024-05-18 01:25:14,717 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Instantiating the CommonUtils
+2024-05-18 01:25:14,718 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Loading the properties file
+2024-05-18 01:25:14,721 [INFO ] com.bdd.step_definitions.Common_Step_Definition [main] Checking the driver is Null or Not
+2024-05-18 01:25:16,940 [INFO ] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] the user clicks on the time option
+2024-05-18 01:25:17,023 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12324931f8ea812657bfaa0cfe8796a2, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue');, args=[null]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52569/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12324931f8ea812657bfaa0cfe8796a2
+2024-05-18 01:25:17,062 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'setAttribute')
+  (Session info: chrome=124.0.6367.209)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12324931f8ea812657bfaa0cfe8796a2, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue');, args=[null]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52569/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12324931f8ea812657bfaa0cfe8796a2
+2024-05-18 01:25:17,072 [ERROR] com.bdd.step_definitions.Verify_Pending_Timesheets_Step_Def [main] java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because "this.MESSAGE" is null
